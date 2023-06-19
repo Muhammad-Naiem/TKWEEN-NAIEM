@@ -10,3 +10,24 @@ if(arrow){
 if(arrowRight){
   gsap.to(arrowRight, {x: -12, ease: "power1.inOut", repeat: -1, yoyo: true});
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
