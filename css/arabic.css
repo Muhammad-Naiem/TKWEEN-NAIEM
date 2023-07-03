@@ -78,6 +78,8 @@ p.split-lines-hero .line {
 .show-reel-anim-text h2{font-size: 6.944444444444445vw; line-height: 6.041666666666667vw;}
 .about-scrollbar-wrap{font-size: 3.4722222222222223vw; font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 400;}
 .about-scrollbar-inner{line-height: 4.236111111111111vw; font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 400;}
+.about-scrollbar-inner p{direction: rtl;}
+.our-approach-title h3{line-height: 92px;112}
 .home-about-us-main h2{width: 100%;}
 .our-approach-title h3 span a{margin-right: 15px;}
 .our-project-title h2{width: 100%;}
@@ -107,7 +109,7 @@ p.split-lines-hero .line {
 .footer-widget.footer-widget-form form input[type="email"] { font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 400; padding: 0 6px 0 12px; text-align: right; }
 .footer-widget.footer-widget-form form input[type="submit"]{right: auto; left: 0;}
 .footer-bottom a:last-child{text-align: left;}
-.newsletter-content h6 { font-family: 'Noto Kufi Arabic', sans-serif; }
+.newsletter-content h6 { font-family: 'Noto Kufi Arabic', sans-serif; direction: rtl;}
 .footer-widget.footer-widget-form h6 {font-family: 'Noto Kufi Arabic', sans-serif;}
 .footer-widget.footer-widget-form form {font-family: 'Noto Kufi Arabic', sans-serif; }
 .footer-widget.footer-widget-form p {font-family: 'Noto Kufi Arabic',sans-serif !important; direction: rtl;}
