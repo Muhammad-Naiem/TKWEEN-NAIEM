@@ -27,6 +27,9 @@ h4.v2{font-size: 4.350828729281768vw; line-height: 4.972375690607735vw;}
 
 /*body,html{height: 100%;}*/
 
+.loading-screen-first.flex { flex-flow: row wrap; }
+
+
 /* Start Arabic CSS */
 /* Start Home Style */
 .language ul li a{font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 400;}
@@ -79,7 +82,7 @@ p.split-lines-hero .line {
 .about-scrollbar-wrap{font-size: 3.4722222222222223vw; font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 400;}
 .about-scrollbar-inner{line-height: 4.236111111111111vw; font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 400;}
 .about-scrollbar-inner p{direction: rtl;}
-.our-approach-title h3{line-height: 92px;112}
+.our-approach-title h3{line-height: 92px;}
 .home-about-us-main h2{width: 100%;}
 .our-approach-title h3 span a{margin-right: 15px;}
 .our-project-title h2{width: 100%;}
@@ -117,6 +120,97 @@ p.split-lines-hero .line {
 .newsletter-input-row label{font-family: 'Noto Kufi Arabic',sans-serif;}
 .home-about-us-main p { max-width: 24.023vw;}
 .home-about-us-main h2 br { display: none; }
+
+/* Start Design Style */
+
+.design-hero-content p{float: right; font-size: 21px; line-height: 26px;}
+.design-approach-content h3 span{flex-flow: row-reverse wrap;}
+.design-approach-content{max-width: 910px;}
+.design-about-title{border-right: none; border-left: 1px solid var(--white);}
+.design-about-title h3 {padding-bottom: 120px; padding-top: 0;}
+.design-about-title h3:before{top: auto; bottom: 0;}
+.services-title { z-index: 71;}
+.services-content{max-width: 1031px;}
+
+.services-content h4{font-size: 3.4722222222222223vw; line-height: 4.166666666666667vw; font-weight: 300;}
+.services-content-btn a { background-position: 15% 50%; padding: 11px 26px 11px 43px; }
+.services-item-thumb-content p{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 300;}
+.design-project .our-project-title{float: right;}
+.design-project .our-project-inner { justify-content: flex-end; }
+.design-project .our-project-title h2{text-align: right;}
+/* End Design Style */
+
+/* Start Branding Style */
+.branding-hero .design-hero-title{display: flex; flex-flow: row wrap; justify-content: flex-end;}
+.branding-hero .design-hero-title h1{max-width: 500px;}
+.branding-hero .design-hero-content p{justify-content: flex-end;}
+.branding-work-title{display: flex; flex-flow: row wrap; justify-content: flex-end;}
+.branding-services-component-title{justify-content: flex-start;}
+.branding-services-component-title h6:before{left: auto; right: 15px; font-family: var(--aeoniktrialregular);}
+.branding-services-component-title h6{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400;}
+.branding-work-title h2{font-size: 5.208333333333333vw; line-height: 7.708333333333333vw; max-width: 86.59722222222223vw;}
+.process-item h6{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400; line-height: 45px;}
+.process-item{padding: 12px;}
+.process-thumb { width: 39.50354609929078%; margin-left: -85px; }
+.branding-work-thumb { transform: rotateY(180deg); }
+/* End Branding Style */
+
+/* Start Hardware Style */
+.hardware-hero .design-hero-title { width: 48.567376%; display: flex; flex-flow: row wrap; justify-content: flex-end;}
+.hardware-hero .design-hero-title h1{max-width: 558px;}
+.hardware-hero .design-hero-content { width: 40%;}
+.hardware-hero .design-hero-content p { justify-content: flex-end;}
+
+.services-title{border-right: none; border-left: 1px solid var(--white);}
+.hardware-services-content .services-content h4{font-size: 2.9166666666666665vw; line-height: 3.9583333333333335vw;}
+.hardware-services-content .services-content p { float: right; max-width: 666px;}
+
+.services-content-thumb{left: 14px; right: auto; transform: rotateY(180deg);}
+.startups-content{float: right; max-width: 77.01388888888889vw;}
+.startups-content h4{font-weight: 300; direction: rtl;}
+.develop-accordion-wrap{direction: rtl;}
+.develop-accordion-title h4{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400; transform: rotate(0);}
+.develop-accordion-title h4:after, .develop-accordion-title h4:before{bottom: auto; top: 15px;}
+.userfeedback-title h4 { float: right;}
+.userfeedback-item-text h4{font-weight: 300;}
+/* End Hardware Style */
+
+
+/* Start About Style */
+.about-hero .design-hero-title h1 { max-width: 440px; }
+.about-content-inner h3 span{direction: rtl;}
+.branding-light-content h2{direction: rtl;}
+.about-show-reel-anim .show-reel-anim-top{max-width: 100%;}
+.about-marquee-title h2{direction: rtl;}
+.tkween-ceo-content{max-width: 796px;}
+.tkween-ceo-content h4{font-size: 4.166666666666667vw; line-height: 5.416666666666667vw; font-weight: 300; direction: rtl;}
+.tkween-ceo-content h4{direction: rtl;}
+.tkween-ceo-content h6{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400;}
+.marquee_text-p{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400; text-align: right;}
+.marquee_heading{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400;}
+.marquee_layout{direction: rtl;}
+.circle_p{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 300;}
+.circle_description { width: 38em;}
+
+/* End About Style */
+
+/* Start Code Style  */ 
+.code-hero .design-hero-title h1 { max-width: 645px; }
+.code-hero .design-hero-content { width: 37%; }
+.code-hero .design-hero-content p{direction: rtl;}
+.services-content h4 {font-size: 3.611111111111111vw; line-height:  4.305555555555555vw; max-width: 832px;}
+.code-page .services-content { direction: rtl; }
+.arrow-right-indicate{transform: rotate(180deg);}
+.code-page  .services-item-title span, .code-page  .services-item-title h6, .code-page .services-item-thumb-content p{direction: rtl;}
+.work_item a h2{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400; font-size: 3.4722222222222223vw; line-height: 4.166666666666667vw;}
+.work_wrap{padding: 0 18% 0 0;}
+.box-contain{justify-content: flex-end;}
+.faq-item-title h6{max-width: 950px;}
+.faq-item-content p{font-family: 'Noto Kufi Arabic',sans-serif; font-weight: 400;}
+.faq-item-title h6:before{right: 15px; left: auto;}
+.faq-item-title:after{right: auto; left: 15px;}
+/* End Code Style  */ 
+
 /* End Arabic CSS */
 
 
@@ -132,6 +226,26 @@ p.split-lines-hero .line {
     .about-scrollbar-wrap{font-size: 50px;} 
     .about-scrollbar-inner{line-height: 61px;}  
     .home-about-us-inner{max-width: 700px;}
+
+
+
+    /* Start Design Style */
+    .services-content h4{font-size: 50px; line-height: 60px;}
+    /* End Design Style */
+
+    /* Start Branding Style */
+    .branding-work-title h2{font-size: 75px; line-height: 111px; max-width: 1247px;}
+    /* End Branding Style */
+
+    /* Start Hardware Style */
+    .hardware-services-content .services-content h4{font-size: 42px; line-height: 57px;}
+    .startups-content{max-width: 1109px;}
+    /* End Hardware Style */
+    .tkween-ceo-content h4{font-size: 60px; line-height: 78px;}
+
+    .services-content h4 {font-size: 52px; line-height: 62px;}
+
+
 
 }
 
@@ -199,7 +313,85 @@ p.split-lines-hero .line {
     .our-approach-title h3 span a { margin-right: 15px; margin: 0; padding: 0; }
     .home-about-us-main p { max-width: 100%; }
     
+
+
+    /* Start Design Style */
+    .design-hero-title{display: flex; justify-content: flex-end; flex-flow: row wrap;}
+    .design-hero-title h1 { max-width: 81%; margin-bottom: 10px;}
+    .design-hero-content p{font-size: 12px; line-height: 20px; max-width: 316px !important;}
+    .design-approach-content h3{font-size:  9.414758269720101vw; line-height: 12vw;}
+    .design-approach-video-wrap { top: 50%; }
+    .design-about-title h3{padding-bottom: 0; padding-left: 0; padding-right: 19.59287531806616vw; font-size:  9.414758269720101vw; line-height: 8.8vw;}
+    .design-about-title h3:before { top: 0; right: 0; left: auto; }
+    .design-about-title{justify-content: flex-end;}
+    .services-title{justify-content: center;}
+    .services-content h4{font-size:  9.414758269720101vw; line-height: 12vw;}
+    .services-item-title h6 { font-size: 20px; line-height: 20px;}
+    .design-project .our-project-title h2{text-align: center; margin-bottom: 0;}
+    .design-project .our-project-title { float: none; max-width: 75%; margin: auto; }
+    /* End Design Style */
     
+    /* Start Branding Style */
+    .branding-hero .design-hero-title h1{font-size:  9.414758269720101vw; line-height: 12.72264631043257vw; max-width: 48vw;} 
+    .process-text h2{font-size:  7.633587786259542vw; line-height: 9.414758269720101vw; max-width: 78.898219vw;}
+    .process-text{display: flex; flex-flow: row wrap; justify-content: center;}
+    .process-title h2{font-size:  7.633587786259542vw; line-height: 9.414758269720101vw;}
+    .branding-services-component-title h6{padding: 0 71px 0 0;}
+    .branding-services-component-title h6:before {right: 0;}
+    /* End Branding Style */
+
+    /* Start Hardware Style */
+    .hardware-hero .design-hero-title { width: 100%;}
+    .hardware-hero .design-hero-content{width: 100%;}
+    .hardware-hero .design-hero-title h1 { max-width: 42vw; font-size: 9.414758269720101vw; line-height: 12.72264631043257vw; }
+    .hardware-services-content .services-content h4{float: right; font-size: 7.633587786259542vw; line-height: 10.687022900763358vw; max-width: 74.04580152671755vw;}
+    .hardware-services-content .services-content p{font-size: 15px; line-height: 20px; max-width: 313px;}
+    .services-content-thumb { left: auto; right: 15px; transform: unset; }
+    .hardware-services .services-item-title span, .hardware-services .services-item-title h6 { font-size: 17px; line-height: 17px; }
+    .startups-content-wrap{float: left;}
+    .startups-content h4 { font-size: 8.9058524173028vw; line-height: 13.994910941475826vw;}
+    .startups-content { max-width: 87.013889vw; }
+    .startups-item-content h2{font-size: 6.870229007633588vw; line-height: 6.870229007633588vw;}
+    .develop-title{display: flex; flex-flow: row wrap; justify-content: center;}
+    .develop-title h2{max-width: 55vw;}
+    .develop-accordion-wrap{border-top: 1px solid var(--white);}
+    .develop-accordion-title h4:after, .develop-accordion-title h4:before{right: auto; left: 0; width: 20px;}
+    .develop-accordion-title.accordion-active h4:before { left: 0; transform: unset;}
+    .develop-accordion-title h4{font-size: 17px; line-height: 19px;}
+    .hardware-showreel-title h2{font-size: 10.178117048346056vw; line-height: 11.959287531806616vw; max-width: 70vw;}
+    .userfeedback-title h4 { font-size: 8.9058524173028vw; line-height: 11.959287531806616vw; max-width: 70vw;}
+
+    /* End Hardware Style */
+
+    /* Start About Style */
+    .about-content-inner h3 span img { height: 9.8vw; }
+    .about-content-inner h3{font-size: 10.94147582697201vw; line-height: 15.267175572519085vw;}
+    .about-content-wrap .common-wrap { padding: 0 10px; }
+    .about-reel-content p { font-size: 17px; line-height: 24px; max-width: 315px; float: right;}
+    .circle-section-title { text-align: center;}
+    .circle_description{width: 77.826972vw;}
+    .circle_p { font-size: 20px; line-height: 29px;}
+    .about-show-reel-anim h4 { font-size: 20px; line-height: 28px; padding-left: 7px; }
+    .marquee_sub-head { max-width: 42vw;  line-height: 16.468193vw; }
+
+    .our-mission-inner h2{font-size: 15px; line-height: 15px; margin-bottom: 12px;}
+    .tkween-ceo-content h4{font-size: 10.178117048346056vw; line-height: 16.793893129770993vw; font-family: 'Noto Kufi Arabic', sans-serif; font-weight: 400;}
+    /* End About Style */
+
+    /* Start Code Style */
+    .code-hero .design-hero-title h1 { max-width: 70vw;}
+    .code-hero .design-hero-content p { max-width: 347px !important; }
+    .code-page .services-content h4{font-size: 10.178117048346056vw; line-height: 16.793893129770993vw;}
+    .code-page .services-item-title{column-gap: 0;}
+    .code-page .services-item-title h6 {width: calc(100% - 30px); font-size: 19px; padding-right: 10px;}
+    .code-page .services-item-title span{width: 30px; font-size: 19px; line-height: 19px;}
+    .box-contain{justify-content: center;}
+    .work_item a h2{font-size: 6.870229007633588vw; line-height: 16.870229vw;}
+    .code-with-us-title h2{max-width: 30vw; margin: auto;}
+    .work_wrap { padding-top: 197px; padding-right: 0; padding-bottom: 0; }
+    .faq-item-title h6{padding-right: 40px;}
+    .faq-item-title h6:before{right: 0;}
+    /* End Code Style */
     
 }
 
@@ -258,6 +450,39 @@ p.split-lines-hero .line {
     .our-approach-title h3 a{width: 28px; padding-left: 10px;}
     /* End Home Style */
 
+    
+    /* Start Design Style */
+    .design-hero-title{display: flex; justify-content: flex-end; flex-flow: row wrap;}
+    .design-hero-title h1 { font-size: 7.414758vw; line-height: 10.959288vw; }
+    .design-approach-video-wrap { top: 50%; }
+    .design-about-title{justify-content: flex-end;}
+    .services-title{justify-content: center;}
+    .design-project .our-project-title h2{text-align: center; margin-bottom: 0;}
+    .design-project .our-project-title { float: none; max-width: 75%; margin: auto; }
+    .design-page .panel{position: absolute !important;}
+    .design-approach-content h3 span a{display: none;}
+    .services-content h4 { font-size: 5.472222vw; line-height: 6.166667vw;}
+    /* End Design Style */
+
+    /* Start Hardware Style */
+    .hardware-services-content .services-content h4 { font-size: 4.916667vw; line-height: 6.958333vw; }
+    .develop-accordion-wrap{border-top: 1px solid;}
+    .develop-accordion-title h4:after, .develop-accordion-title h4:before{right: auto; left: 0;}
+    .develop-accordion-title h4 {width: 100%;}
+    .develop-accordion-title.accordion-active h4:before, .develop-accordion-title.accordion-active h4:after { transform: unset; }
+    /* End Hardware Style */
+
+    .about-content-inner h3 { font-size: 8.414758vw;}
+    .about-content-inner h3 span {justify-content: start; }
+    .about-content-inner h3 span img { height: 7.513889vw; }
+    .tkween-ceo-content h4 { font-size: 6.166667vw; line-height: 9.416667vw;}
+
+    .work_wrap { padding-top: 197px; padding-left: 0; padding-bottom: 0; padding-right: 0;}
+    .work_item a h2 { font-size: 6.870229007633588vw; line-height: 16.793893129770993vw;}
+    .box-contain{justify-content: center;}
+    .faq-item-title h6{padding-right: 60px;}
+    .faq-item-title h6:before{right: 0;}
+
 }
 
 
@@ -265,7 +490,11 @@ p.split-lines-hero .line {
     input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
 
   
+    .startups-content-wrap{padding-top: 40px;}
     
+    .work_wrap { padding: 0 21% 0 0; }
+    .box {width: 200px; height: 200px;}
+    .faq-item-title h6{padding-right: 40px;}
 }
 
 
@@ -273,7 +502,11 @@ p.split-lines-hero .line {
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
 
-    
+    .startups-content-wrap{padding-top: 40px;}
+
+    .work_wrap { padding: 0 21% 0 0; }
+    .box {width: 200px; height: 200px;}
+    .faq-item-title h6{padding-right: 40px;}
 
 }
 
